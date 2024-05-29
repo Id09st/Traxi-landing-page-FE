@@ -1,9 +1,6 @@
 import { Typography } from "@mui/material";
-import React from "react";
 
 export default function Reason() {
-
-
   return (
     <>
       <svg style={{ marginRight: "25px" }} xmlns="http://www.w3.org/2000/svg" width="51.629px" height="46.62px" viewBox="0 0 33.629 46.62">

@@ -1,7 +1,6 @@
 import Layout from "../../../layout";
 import CustomBreadcrumbs from "../../../components/Breadcrumbs/custormbreadcrumbs";
 import { Container, Grid, Typography, Box, Link } from "@mui/material";
-import CircleIcon from "@mui/icons-material/Circle";
 
 export default function PartnerProfile() {
   const locationTitle = {

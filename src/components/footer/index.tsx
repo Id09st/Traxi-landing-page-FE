@@ -1,4 +1,3 @@
-import React from "react";
 import { Box, Container, Grid, Typography, Link, IconButton } from "@mui/material";
 import Logo from "../logo";
 import FacebookIcon from "@mui/icons-material/Facebook";
