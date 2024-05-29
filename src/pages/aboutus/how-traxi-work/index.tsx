@@ -35,7 +35,7 @@ function a11yProps(index: number) {
 export default function HowTraxiWork() {
   const [value, setValue] = React.useState(0);
 
-  const handleChange = (event: React.SyntheticEvent, newValue: number) => {
+  const handleChange = (newValue: number) => {
     setValue(newValue);
   };
 
@@ -53,7 +53,7 @@ export default function HowTraxiWork() {
         <Box sx={{ borderBottom: 1, borderColor: "divider" }}>
           <Tabs
             value={value}
-            onChange={handleChange}
+            onChange={(_, newValue) => handleChange(newValue)} // Sử dụng "_" để bỏ qua biến không sử dụng
             aria-label="basic tabs example"
             sx={{ width: "100%", display: "flex", justifyContent: "space-evenly" }}
           >
